@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<b>Bold Text</b>
+	<br>
+	<br>
+	<strong>Strong Text</strong>
+	<br>
+	<br>
+	<i>Itlalic Text</i>
+	<br>
+	<br>
+	<em>Empasise Text</em>
+	<br>
+	<br>
+	<mark>Marked Text</mark>
+	<br>
+	<br>
+	<small>Small Text</small>
+	<br>
+	<br>
+	<del>Deleted Text</del>
+	<br>
+	<br>
+	<ins>Inserted Text</ins>
+	<br>
+	<br>
+	<p>Paragrpah<sub>Subscript</sub>Paragrpah</p>
+	<br>
+	<br>
+	<p>Paragrpah<sup>Subscript</sup>Paragrpah</p>
+</html>
