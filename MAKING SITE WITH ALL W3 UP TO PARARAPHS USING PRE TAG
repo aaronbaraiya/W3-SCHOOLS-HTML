@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--WILL CONTAIN: A LINKS, IMGS, BUTTON, LISTS, EMPTY ELEMENTS, HREF, SRC, 
+WIDTH, HEIGHT, ALT, LANG, TITLE, HEADINGS, PARAGRPAHS, PRE, -->
+<html>
+  <form action="/Submit-Nothing" method="POST">
+		<h1>
+			The following things:
+		</h1>
+    <a href="https://www.google.com" target="_blank">Click here to go to google</a>
+		<br/>
+		<img src="https://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" title="amazon img" width="150px" height="150px"/>
+		<br/><br/>
+		<ul>
+			<li>First</li>
+			<li>Second</li>
+			<li>Third</li>
+		</ul>
+		<br/>
+		<ol>
+			<li>First</li>
+			<li>Second</li>
+			<li>Third</li>
+		</ol>
+		<br/><br/>
+		<p>
+				Hello 
+				World!!!!!
+		</p>
+		<br/><br/>
+		<a href="https://www.gmail.com" target="_blank"><img src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" title="click to go to gmail" width="100px" height="100px"/></a>
+  </form>
+	<br/>
+	<pre>Click submit button</pre><!--Must be in this format to be algined with others-->
+	<br/><br/>
+	<button type="Submit-Nothing" name="Sumbit-Nothing">Submit</button>
+</html>
