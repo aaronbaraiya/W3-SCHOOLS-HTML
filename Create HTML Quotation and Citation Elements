@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<h1>Heading</h1>
+	</head>
+	<main>
+		<p>This is paragraph and <q>These are quotes</q> within a paragraph</p>
+		<br><br>
+
+		<p>
+			These are some blockquotes:
+		</p>
+		<br>
+
+		<blockquote cite="https://www.google.com">
+			  <q><cite><a href="https://www.google.com" target="_blank">Google is trying to control the minds of EVERYONE ON THIS DAMN PLANET</a></cite></q>
+		</blockquote>
+
+		<br>
+
+		<p>This was founded  <abbr title="Google">The new pixel phone</abbr> and then this phone was here</p>
+
+		<br><br>
+
+		<address>
+			6739 morganite court
+			Mira Loma, California
+			91752 United States
+		</address>
+
+		<p>Mona Lisa  <cite>Leonardo da Vinci</cite> painting</p>
+
+		<br><br>
+
+		<bdo dir="rtl">This will go from right to the left</bdo>
+
+	</main>
+</html>
