@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+		<!--THIS IS A COMMENT-->
+		<main>
+		
+			<head>
+				<h1>Heading</h1>
+				<h2>Heading</h2>
+				<h3>Heading</h3>
+				<h4>Heading</h4>
+				<h5>Heading</h5>
+				<h6>Heading</h6>
+			</head>
+		
+			<hr>
+		
+			<a href="https://www.google.com" target="_blank">Click here to go to google</a>
+			<br>
+			
+			<img src="https://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" alt="amazon logo img" width="120px" height="120px">
+			<br>
+			
+			<ul title="this is a unordered list">
+				<li>First</li>
+				<li>Second</li>
+				<li>Third</li>
+			</ul>
+			<br>
+			<ol title="this is a ordered list">
+				<li>First</li>
+				<li>Second</li>
+				<li>Third</li>
+			</ol>
+			<br>
+			
+			<p>This is a paragraph</p>
+			<br>
+			
+		<pre>
+			this is a pre tag hence it is indented greatly
+		</pre>
+		
+		<br>
+		
+			<b>Bold text</b><br>
+			<em>Emphasied text</em><br>
+			<i>Italic text</i><br>
+			<p>this is text <small>small text</small> this is text</p><br>
+			<p>this is text <strong>strong text</strong> this is text</p><br>
+			<p>this is text <sup>superscript</sup> this is text</p><br>
+			<p>this is text <sub>subscript</sub> this is text</p><br>
+			<ins>inserted text</ins><br>
+			<del>deleted text</del><br>
+			<mark>marked text</mark><br>
+		
+			<p>this is text <q>this is a qoute</q> this is text</p>
+			<br>
+			
+			<blockquote>
+				<cite>this is blockquote text</cite>
+			</blockquote>
+			
+			<br>
+			
+			<p>this is text <abbr title="Google">Gl</abbr> this is text</p>
+			<br>
+			
+			<address>
+				6739 morganite court
+				mira loma california
+				91752
+			</address>
+		
+			<br>
+		
+			<cite>
+				this is cite text
+			</cite>
+			
+			<br>
+			
+			<bdo dir="rtl">
+				left to right text
+			</bdo>
+		
+		</main>
+</html>
