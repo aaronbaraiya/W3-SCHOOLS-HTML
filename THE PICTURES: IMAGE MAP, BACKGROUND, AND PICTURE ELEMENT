@@ -1,0 +1,35 @@
+ <!--IMAGE MAP--> 
+  <img src="https://i.ytimg.com/vi/yxR5F52NMGs/hqdefault.jpg" alt="sponge and pat starring" usemap="#SPONGE">
+  
+  <map name="SPONGE">
+    <area shape="rect" coords="169,283,577,533" href="https://www.spongebob.com" target="_blank" alt="spongeboob">
+    <area shape="rect" coords="1107, 243,1877,649" href="https://www.patrick.com"  target="_blank" alt="patrick">
+    <area shape="circle" coords="891,457,200" href="https://www.google.com"  target="_blank" alt="google">
+  </map>
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style type="text/css">
+       /*BACKGROUND IMAGES*/
+        body {
+          background-image: url('https://www.zamzar.com/images/filetypes/jpg.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>
+  </head>
+    
+</html>
+
+<!DOCTYPE html>
+<html>
+  <!--HTML PICTURE ELEMENT-->
+  <picture>
+    <source media="(min-width: 100px)" srcset="https://upload.wikimedia.org/wikipedia/commons/8/87/Smiley_Face.JPG">
+    <source media="(min-width: 100px)" srcset="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif">
+    <img src="https://www.zamzar.com/images/filetypes/jpg.png" alt="JPG IMAGES">
+  </picture>
+</html>
