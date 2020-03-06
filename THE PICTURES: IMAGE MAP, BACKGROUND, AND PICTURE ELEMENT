@@ -6,7 +6,21 @@
     <area shape="rect" coords="1107, 243,1877,649" href="https://www.patrick.com"  target="_blank" alt="patrick">
     <area shape="circle" coords="891,457,200" href="https://www.google.com"  target="_blank" alt="google">
   </map>
+  
+  <!--SECOND IMAGE MAP-->
+  <!DOCTYPE html>
+<html>
+  <!--IMAGE MAP-->
+  <img src="https://tinyjpg.com/images/social/website.jpg" alt="PANDA JPG" usemap="#IMGMAP">
+  
+  <map name="IMGMAP">
+    <area shape="rect" coords="365,19,657,243" href="https://www.google.com" title="GOES TO GOOGLE" target="_blank">
+    <area shape="rect" coords="397,279,697,463" href="https://www.edhesive.com" title="GOES TO EDHESIVE" target="_blank">
+    <area shape="rect" coords="851,3,1007,468" href="https://www.softschools.com/facts/plants/bamboo_facts/563/" title="TO LEARN ABOUT BAMBOOS GO HERE" target="_blank">
+  </map>
+</html>
 
+<!--BREAK-->
 <!DOCTYPE html>
 <html>
 
@@ -31,5 +45,15 @@
     <source media="(min-width: 100px)" srcset="https://upload.wikimedia.org/wikipedia/commons/8/87/Smiley_Face.JPG">
     <source media="(min-width: 100px)" srcset="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif">
     <img src="https://www.zamzar.com/images/filetypes/jpg.png" alt="JPG IMAGES">
+  </picture>
+</html>
+
+<!--SECOND ONE FOR PICURE ELEMENT-->
+<!DOCTYPE html>
+<html>
+  <picture>
+    <source media="(min-width: 100px)" srcset="https://www.zamzar.com/images/filetypes/jpg.png">
+    <source media="(min-width: 100px)" srcset="https://personal.psu.edu/xqz5228/jpg.jpg">
+    <img src="https://media2.giphy.com/media/4NPT1ipEUoiMo/giphy.gif" alt="GIFF OF EARTH SPINING ON AXIS"> <!--SETS AS DEFAULT IF ONES ON TOP DO NOT WORK-->
   </picture>
 </html>
