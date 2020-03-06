@@ -7,6 +7,20 @@
     <area shape="circle" coords="891,457,200" href="https://www.google.com"  target="_blank" alt="google">
   </map>
   
+  <!--IMAGE MAP WITH CIRCLE AS ONE SHAPE-->
+  <!DOCTYPE html>
+<html>
+	<!--HTML IMAGE MAPS-->
+	
+	<img src="https://tinyjpg.com/images/social/website.jpg" usemap="#MAPELEMENT"/>
+	
+	<map name="MAPELEMENT">
+		<area shape="rect" coords="360,20,661,224" href="https://www.chinahighlights.com/giant-panda/interesting-facts.htm" title="GOES TO PANDA FACTS" target="_blank">
+		<area shape="circle" coords="570,208,70" href="https://www.softschools.com/facts/plants/bamboo_facts/563/" title="GOES TO BAMBOO FACTS" target="_blank">
+	</map>
+</html>
+
+
   <!--SECOND IMAGE MAP-->
   <!DOCTYPE html>
 <html>
