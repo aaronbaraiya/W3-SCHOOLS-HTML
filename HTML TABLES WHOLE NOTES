@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!--MAKE TABLE FIRST THEN ADD CSS TO BACKGROUND COLOURS AND SPACING AND SUCH-->
+	<head>
+		<style type="text/css">
+			html, body {
+				background-color: #000000;
+				color: #FFFFFF;
+			}
+
+			table, th, td {
+				background-color: #FFFFFF;
+				color: #000000;
+				border: 5px solid #000000;
+				border-collapse: collapse;
+			}
+
+			th, td {
+				padding: 10px;
+			}
+
+			th {
+				text-align: left;
+			}
+
+			table {
+				border-spacing: 10px;
+			}
+		</style>
+	</head>
+	<table>
+		<tr> <!--TR ARE TABLE ROWS-->
+			<!--TH ARE TABLE HEADERS-->
+			<th>Name:</th>
+			<th>Age:</th>
+			<th>Gender:</th>
+		</tr>
+		<tr>
+			<!--TD ARE TABLE DATA CELLS-->
+			<td>Aaron</td>
+			<td>16</td>
+			<td>Male</td>
+		</tr>
+	</table>
+
+	<table>
+		<tr>
+			<th>Name:</th>
+			<th colspan="2">Gender</th> <!--The colspan attribute in HTML specifies the number of columns a cell should span. It allows the single table cell to span the width of more than one cell or column.-->
+		</tr>
+		<tr>
+			<td>Aaron</td>
+			<td>Male</td>
+			<td>Male</td>
+		</tr>
+	</table>
+
+	<table>
+		<tr>
+			<th>Name:</th>
+			<td>Aaron</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Phone number:</th>
+			<td>909-501-2599</td>
+		</tr>
+		<tr>
+			<td>714-328-0631</td>
+		</tr>
+	</table>
+	<table id="last-table">
+		<caption>Monthy Water Bill:</caption>
+		<tr>
+			<th>Month:</th>
+			<th>Bill:</th>
+		</tr>
+		<tr>
+			<td>Janurary</td>
+			<td>$100</td>
+		</tr>
+		<tr>
+			<td>Feburary</td>
+			<td>#100</td>
+		</tr>
+	</table>
+</html>
