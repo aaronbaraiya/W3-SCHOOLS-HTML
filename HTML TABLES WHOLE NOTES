@@ -84,3 +84,90 @@
 		</tr>
 	</table>
 </html>
+
+<!--LATEST ONE FOR HTML AND CSS-->
+<!--HTML-->
+<!DOCTYPE html>
+<html>
+  <table id="T01">
+    <tr>
+      <th>Name</th>
+      <th>Last Name</th>
+    </tr>
+    <tr>
+      <td>Aaron</td>
+      <td>Baraiya</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Smith</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>Dylan</td>
+    </tr>
+  </table>
+	
+	<hr>
+  
+	<table id="T02">
+		<tr>
+			<th>ID number</th>
+			<th colspan="2">Email</th>
+		</tr>
+		<tr>
+			<td>324154</td>
+			<td>aaronbaraiya@gmail.com</td>
+			<td>aaronbaraiya@outlook.com</td>
+		</tr>
+		<tr>
+			<td>322154</td>
+			<td>baraiyaaaron@gmail.com</td>
+			<td>baraiyaaron@outlook.com</td>
+		</tr>
+  </table>
+	
+	<hr>
+	
+	<table id="T03">
+		<tr>
+			<th>Department number</th>
+			<th rolspan="2">Department ID</th>
+		</tr>
+		<tr>
+			<td>D01</td>
+			<td>001</td>
+			<td>002</td>
+		</tr>
+		<tr>
+			<td>D012</td>
+			<td>003</td>
+			<td>004</td>
+		</tr>
+		<tr>
+			<td>DO13</td>
+			<td>005</td>
+			<td>006</td>
+		</tr>
+	</table>
+	
+</html>
+
+<!--CSS-->
+html, body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+table, td, th, tr {
+	border: 1px solid #FFFFFF; /*CHANGE THE COLOUR OF THE TABLE BORDERS*/
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+}
+
+table {
+	border-spacing: 2px;
+}
