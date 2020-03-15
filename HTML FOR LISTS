@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<style type="text/css">
+
+		html, body {
+			background-color: #000000;
+			color: #FFFFFF;
+		}
+
+			#first-UL {
+				list-style-type: circle;
+			}
+
+			#first-OL {
+				list-style-type: square;
+			}
+		</style>
+	</head>
+
+	<ul id="first-UL">
+		<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	</ul>
+
+	<hr>
+
+	<ol id="first-OL">
+		<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	</ol>
+
+	<hr>
+
+	<ul type="I" start="10">
+		<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	</ul>
+
+	<hr>
+
+	<dl>
+		<dt>Milk</dt>
+		<dd>A liquid</dd>
+
+		<br>
+
+		<dt>Coffee</dt>
+		<dd>Another liquid</dd>
+	</dl>
+
+	<hr>
+
+	<ul>
+		<li>This is a list</li>
+		<ul>
+			<li>First</li>
+			<li>Second</li>
+			<li>Third</li>
+		</ul>
+		<li>End of list</li>
+	</ul>
+
+</html>
