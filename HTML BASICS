@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--HTML BASICS:-->
+<html>
+
+  <head>
+    <style type="text/css">
+      html, body {
+        background-color: #000000;
+        color: #FFFFFF;
+      }
+    </style>
+  </head>
+
+  <!--HEADINGS-->
+  <h1 id="first-H">Header</h1>
+  <h2>Header</h2>
+  <h3>Header</h3>
+  <h4>Header</h4>
+  <h5>Header</h5>
+  <h6>Header</h6>
+  
+  <!--PARAGRAPHS-->
+  <p>This is a paragraph</p>
+  
+  <br>
+  
+  <p>This is a paragraph</p>
+  
+  <hr>
+  
+  <p>This is a paragraph</p>
+  
+  <br>
+  
+  <pre>
+    this is text
+    within the preformatted tag
+    this is a pre tag
+  </pre>
+  
+  <br>
+  
+  <!--LINKS-->
+   <a href="https://www.google.com" target="_blank">Click here to go to google</a>
+   <a href="https://www.github.com" target="_blank">Click here to go to github</a>
+   <a href="https://www.amazon.com" target="_blank"><img src="https://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" width="100px" height="100px"/></a>
+   <a href="first-H">Click here to go to the top</a>
+   
+   <!--TEXT FORMATTING-->
+   <p>this is <b>bold</b>text</p>
+   <p>this is <strong>strong</strong>text</p>
+   <p>this is <i>italic</i>text</p>
+   <p>this is <em>emapasied</em>text</p>
+   <p>this is <mark>marked</mark>text</p>
+   <p>this is <code>coded</code>text</p>
+   <p>this is <small>small</small>text</p>
+   <p>this is <sub>subscript</sub>text</p>
+   <p>this is <sup>super</sup>text</p>
+   <p>this is <del>deleted</del>text</p>
+   <p>this is <ins>inserted</ins>text</p>
+   
+   <!--FORMATTING QOUTATIONS-->
+   <blockquote>
+     <p><q>Preservation of semen brings life, falling of semen brings death</q></p>
+     <cite>Ancient Yoga Sutras of Patanjali</cite>
+   </blockquote>
+   
+   <abbr title="Amazon Web Services">AWS</abbr>
+   
+   <address>
+     6739 morganite court
+     mira loma california
+     91752
+   </address>
+   
+   <!--LEFT OFF AT IMAGES OVER HERE: https://www.tutorialrepublic.com/html-tutorial/html-images.php-->
+   
+</html>
