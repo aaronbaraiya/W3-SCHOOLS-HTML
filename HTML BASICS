@@ -8,6 +8,19 @@
         background-color: #000000;
         color: #FFFFFF;
       }
+
+			table, th, td, tr {
+				border: 1px solid #FFFFFF;
+				border-collapse: collapse;
+			}
+
+			th, td {
+				padding: 5px;
+			}
+
+			ul {
+				list-style-type: square;
+			}
     </style>
   </head>
 
@@ -18,34 +31,34 @@
   <h4>Header</h4>
   <h5>Header</h5>
   <h6>Header</h6>
-  
+
   <!--PARAGRAPHS-->
   <p>This is a paragraph</p>
-  
+
   <br>
-  
+
   <p>This is a paragraph</p>
-  
+
   <hr>
-  
+
   <p>This is a paragraph</p>
-  
+
   <br>
-  
+
   <pre>
     this is text
     within the preformatted tag
     this is a pre tag
   </pre>
-  
+
   <br>
-  
+
   <!--LINKS-->
    <a href="https://www.google.com" target="_blank">Click here to go to google</a>
    <a href="https://www.github.com" target="_blank">Click here to go to github</a>
    <a href="https://www.amazon.com" target="_blank"><img src="https://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" width="100px" height="100px"/></a>
    <a href="first-H">Click here to go to the top</a>
-   
+
    <!--TEXT FORMATTING-->
    <p>this is <b>bold</b>text</p>
    <p>this is <strong>strong</strong>text</p>
@@ -58,21 +71,138 @@
    <p>this is <sup>super</sup>text</p>
    <p>this is <del>deleted</del>text</p>
    <p>this is <ins>inserted</ins>text</p>
-   
+
    <!--FORMATTING QOUTATIONS-->
    <blockquote>
      <p><q>Preservation of semen brings life, falling of semen brings death</q></p>
      <cite>Ancient Yoga Sutras of Patanjali</cite>
    </blockquote>
-   
+
    <abbr title="Amazon Web Services">AWS</abbr>
-   
+
    <address>
      6739 morganite court
      mira loma california
      91752
    </address>
-   
-   <!--LEFT OFF AT IMAGES OVER HERE: https://www.tutorialrepublic.com/html-tutorial/html-images.php-->
-   
+
+   <!--IMAGES-->
+
+	 <img src="https://tinyjpg.com/images/social/website.jpg" alt="JPG IMG OF A PANDA" width="100px" height="100px">
+
+	 <picture>
+	 		<source media="(min-width:100px)" srcset="https://www.zamzar.com/images/filetypes/jpg.png">
+				<source media="(max-width:100px)" srcset="https://www.zamzar.com/images/filetypes/jpg.png">
+				<img src="https://tinyjpg.com/images/social/website.jpg" alt="PANDA JPG">
+	 </picture>
+
+	 <img src="https://tinyjpg.com/images/social/website.jpg" alt="JPG OF BIG BOI" usemap="#JPG-IMG">
+	 <map name="JPG-IMG">
+	 		<area shape="rect" coords="269,10,784,508" href="https://www.chinahighlights.com/giant-panda/interesting-facts.htm">
+	 </map>
+
+	 <!--TABLES-->
+
+	 <table>
+		 	<caption>First Table</caption>
+		 		<thead>
+	 				<tr>
+	 					<th>Head</th>
+						<th>Second Head</th>
+	 			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Corresspondacne</td>
+					<td>Corresspondacne</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>Last Corresspondacne</td>
+					<td>Second Last Corresspondacne</td>
+				</tr>
+			</tfoot>
+	 </table>
+
+	 <br>
+
+	 <!--LISTS-->
+
+	 <ul>
+	 	<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	 </ul>
+
+	 <br>
+
+	 <ol type="I" start="10">
+	 	<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	 </ol>
+
+	 <br>
+
+	 <dl>
+	 	<dt>
+			Food
+		</dt>
+		<dd>
+			Needed in this kali yug
+		</dd>
+		<dt>
+			Water
+		</dt>
+		<dd>
+			The mother of all elements
+		</dd>
+	 </dl>
+
+	 <!--FORM-->
+
+	 <form method="post">
+	 		<label>Username: <input type="text"></label>
+			<label>Password: <input type="password"></label>
+			<input type="Submit"  value="Submit">
+	 </form>
+
+	 <!--RADIO BUTTONS-->
+	 <form  method="post">
+	 		<label>Gender:</label>
+			<input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+	 </form>
+
+	 <!--CHECKBOXES-->
+	 <form method="post">
+	 		<label>Check these boxes</label>
+			<input type="checkbox">First
+			<input type="checkbox">Second
+			<input type="checkbox">Third
+	 </form>
+
+	 <!--File-->
+	 <form method="post">
+	 		<label>Select File</label>
+			<input type="file">
+	 	</form>
+
+	 <!--SELECT BOXES-->
+
+	 <form method="post">
+	 		<label for="city">Select one of the following:</label>
+			<select name="city" id="city">
+				<option value="Toronto">Toronto</option>
+				<option value="Vancouver">Vancouver</option>
+				<option value="Montreal">Montreal</option>
+			</select>
+	 </form>
+
+	 <!--MAKE GROUPING FORM CONTROLS-->
+
+	 <!--IFRAMES: IS A BOX WHICH LINKS TO ANOTHER SITE WITHIN A SITE ALREADY ON THE WEB PAGE-->
+
+	 <iframe src="https://www.google.com" width="100px" height="100px"></iframe>
 </html>
