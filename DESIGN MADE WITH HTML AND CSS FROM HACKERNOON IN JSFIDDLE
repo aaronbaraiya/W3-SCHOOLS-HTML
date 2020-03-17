@@ -1,0 +1,78 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html>
+  <header id="Header">
+    <h1>Tutorial Republic</h1>
+  </header>
+  <body>
+    <div class="side-bar">
+      <a href="#">Home</a><br>
+      <a href="#">About</a><br>
+      <a href="#">Contact</a>
+    </div>
+    
+    <div class="sec-div">
+      <h2>Welcome to the site</h2>
+      <p>Here you will learn how to make websites...</p>
+    </div>
+  </body>
+  
+  
+  <footer id="footer">
+    <pre id="pre">copyright © tutorialrepublic.com</pre>
+  </footer>
+</html>
+
+<!--CSS-->
+
+html, body {
+  background-color: #000000;
+  margin: 0; /*ALLOWS BACKGROUND COLOUR TO BE FULL*/
+  padding: 0; /*ALLOWS BACKGROUND COLOUR TO BE FULL*/
+}
+
+#Header {
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #A9A9A9;
+  color: #D3D3D3;
+}
+
+.side-bar, a {
+  font-family: Arial;
+  color: #C0C0C0;
+  text-decoration: none;
+  padding-top: 35px;
+  padding-left: 5px;
+}
+
+.sec-div {
+   color: #C0C0C0;
+   font-family: Arial;
+   float: right;
+   padding-right: 350px;
+   position: relative; /*NEEDED TO MOVE TEXT UP*/
+   bottom: 89px; /*MAKES TEXT GO UP*/
+   background-color: #808080;
+   width: 575px;
+   padding-left: 10px;
+   left: 41px;
+   padding-top: 15px;
+}
+
+#pre {
+  font-family: Arial;
+}
+
+
+#footer {
+  color: #C0C0C0;
+  font-family: Arial;
+  background-color: #A9A9A9;
+  clear: both;
+  position: relative;
+  height: 50px;
+  padding-left: 400px;
+  padding-top: 3px;
+}
